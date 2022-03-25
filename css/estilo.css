@@ -20,4 +20,7 @@ h1 {
 }
 p {
   font-size: 2rem;
+  color: #191970;
+  text-align: justify;
+  text-indent: 40px;
 }
