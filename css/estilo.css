@@ -2,7 +2,7 @@ body {
   background-color: #ff9100;
 }
 .fundo_diferente {
-  background-color: #191970;
+  background-color: #ff9100;
 
 }
 .img_topo {
@@ -10,7 +10,8 @@ body {
 }
 .img_corpo {
   width: 50%;
-}
+  }
+  
 figure {
   text-align: center;
 }
@@ -30,14 +31,14 @@ p {
 }
 
 .parag > p{
-  color: #ff9100;
+  color: #191970;
 }
 
 
 .pinta_botao {
-  width: 150px;
+  width: 170px;
   height: 50px;
-  background-color: #000000;
+  background-color: rgb(81, 151, 255);
   margin: auto;
 
 }
@@ -45,4 +46,12 @@ p {
 .botao{
   padding-top: 15px;
   
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h2 {
+  text-align: center;
 }
