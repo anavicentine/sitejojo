@@ -6,8 +6,10 @@ body {
 
 }
 .img_topo {
-  width: 100%;
+  width: 90%;
+  margin-top: 2rem;
 }
+
 .img_corpo {
   width: 50%;
   }
@@ -22,12 +24,18 @@ figure {
 h1 {
   text-align: center;
   color: #000000;
+  font-size: 5rem ;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 p {
   font-size: 2rem;
   color: #191970;
-  text-align: justify;
+  text-align: center;
   text-indent: 40px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .parag > p{
@@ -54,4 +62,62 @@ html{
 
 h2 {
   text-align: center;
+  font-size: 3rem;
+}
+
+.iten_menu,footer{
+  
+  background-color: #e64900;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.logo{
+
+
+}
+
+.menu {
+  background-color: #e64900 ;
+}
+
+footer p {
+  text-align: center;
+}
+
+nav ul li a{
+  color: #191970;
+}
+
+.iten_menu{
+  font-size: 2rem;
+}
+
+.iten_menu a:link, a:visited {
+  background-color: #191970;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ 
+}
+
+li{
+  font-size: 2rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+footer p a:link, a:visited {
+  background-color: #191970;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+section {
+  margin-top: 1rem;
 }
