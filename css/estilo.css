@@ -36,10 +36,13 @@ p {
   text-indent: 40px;
   padding-bottom: 1rem;
   padding-top: 1rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .parag > p{
   color: #191970;
+  text-indent: 2%;
+  margin-right: 1%;
 }
 
 
@@ -53,6 +56,8 @@ p {
 
 .botao{
   padding-top: 15px;
+  margin-bottom: 3%;
+  text-indent: 0%;
   
 }
 
@@ -112,12 +117,35 @@ li{
 footer p a:link, a:visited {
   background-color: #191970;
   color: white;
-  padding: 14px 25px;
-  text-align: center;
+  padding: 0.3%;
+  text-align: justify ;
   text-decoration: none;
   display: inline-block;
+  text-indent: 0%;
 }
 
 section {
   margin-top: 1rem;
 }
+
+.lado {
+  float: right;
+  margin-left: 2%;
+  }
+
+.escondido {
+  display: none;
+}
+
+.img_hamon {
+  float: left;
+  margin-left: 1.5%;
+  width: 20%;
+  margin-right: 1%;
+}
+
+footer {
+    margin-top: 3%;
+    background-color: #e64900;
+    padding: 2rem;
+  }
