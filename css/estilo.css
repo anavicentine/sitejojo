@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Sports World-Regular ;
+  src: url(../fonts/Sports\ World-Regular.otf);
+}
+
+@font-face {
+  font-family: octin sports rg;
+  src: url(../fonts/octin\ sports\ rg.otf);
+}
+
 body {
   background-color: #ff9100;
 }
@@ -24,10 +34,11 @@ figure {
 h1 {
   text-align: center;
   color: #000000;
-  font-size: 5rem ;
+  font-size: 7rem ;
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 1rem;
+  font-family: Sports World-Regular;
 }
 p {
   font-size: 2rem;
@@ -36,7 +47,7 @@ p {
   text-indent: 40px;
   padding-bottom: 1rem;
   padding-top: 1rem;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: octin sports rg;
 }
 
 .parag > p{
@@ -67,7 +78,9 @@ html{
 
 h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 5rem;
+  font-family: Sports World-Regular;
+  margin-top: 3%;
 }
 
 .iten_menu,footer{
@@ -170,7 +183,7 @@ footer {
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: octin sports rg ;
   border-collapse: collapse;
   width: 100%;
   p.solid {border-style: solid;}
