@@ -78,7 +78,7 @@ html{
 
 h2 {
   text-align: center;
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: Sports World-Regular;
   margin-top: 3%;
 }
@@ -146,6 +146,8 @@ section {
 .lado {
   float: right;
   margin-left: 2%;
+  width: 90%;
+  margin-top: 2rem;
   }
 
 .escondido {
@@ -215,6 +217,7 @@ td, th {
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
+  font-family:octin sports rg ;
 }
 
 input[type=text], select, textarea, input[type=tel], input[type=email] {
@@ -223,6 +226,7 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
   border: 1px solid #ccc;
   border-radius: 15px;
   resize: vertical;
+  font-family:octin sports rg ;
 }
 
 
@@ -237,4 +241,49 @@ margin-top: 6px;
 width: 75%;
 float: left;
 margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=submit] {
+  background-color:#191970;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  font-weight: bolder;
+ 
+}
+
+.botaoform{
+  margin-top: 3%;
+}
+
+
+@media screen and (max-width:450px) {
+
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+   
+  }
+
+ 
+
+  
+}
+
+.img_jojos{
+  margin-top: 1rem;
+  text-align: center;
 }
