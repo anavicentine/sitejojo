@@ -289,3 +289,14 @@ input[type=submit]:hover {
   width: 80%
   
 }
+
+.fixo{
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  position: fixed;  
+}
+
+.banner {
+  margin: 10%;
+}
