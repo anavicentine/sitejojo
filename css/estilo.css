@@ -8,29 +8,111 @@
   src: url(../fonts/octin\ sports\ rg.otf);
 }
 
-body {
-  background-color: #ff9100;
-}
-.fundo_diferente {
-  background-color: #ff9100;
-
-}
-.img_topo {
-  width: 90%;
-  margin-top: 2rem;
+html{
+  scroll-behavior: smooth;
 }
 
-.img_corpo {
-  width: 50%;
-  }
-  
-figure {
+body{
+  background-color:#ff9100;  
+}
+
+header{
+  padding: 1.5%;  
+  font-family: octin sports rg;
+  background-color:  #e64900;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fixo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+}
+
+.img_topo{
+  width: 100%;
+}
+
+.img_logo{
+  width: 30%;
+}
+
+footer{
+  background-color: rgba(128, 128, 128, 0.3); 
+  padding: 1.5%;  
+  font-family: octin sports rg;
+}
+
+.iten_menu{
+  line-height: 1.5;
   text-align: center;
 }
-.container {
+
+nav ul li a{
+  color: #191970;
+}
+
+.iten_menu{
+  font-size: 0.1px;
+}
+
+.iten_menu a:link, a:visited {
+  background-color: #191970;
+  color: white;
+  padding: 9px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+ 
+}
+  
+  /* selected link */
+.iten_menu a:active {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+section a:link{
+  color: #696969;
+}
+
+section a:visited {
+  color: #FFF; 
+}
+
+section a:hover{
+  color: #696969;
+}
+
+
+.fundo_diferente{
+  background-image:  #ff9100;
+}
+
+
+
+.img_corpo{
+  width: 50%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+figure{
+    text-align: center;
+}
+
+.container{
   width: 80%;
   margin: auto;
 }
+
 h1 {
   text-align: center;
   color: #000000;
@@ -88,16 +170,6 @@ h2 {
   background-color: #e64900;
   text-align: center;
   padding-bottom: 0.1px;
-}
-
-.logo{
-
-
-}
-
-.menu {
-  background-color: #e64900 ;
-  
 }
 
 footer p {
@@ -184,6 +256,15 @@ footer {
   width: 20%;
 }
 
+.img_caesar {
+  width:30%
+  
+}
+
+.img_lisalisa {
+  width: 30%
+}
+
 table {
   font-family: octin sports rg ;
   border-collapse: collapse;
@@ -198,14 +279,7 @@ td, th {
   text-align: center;
 }
 
-.img_caesar {
-  width:30%
-  
-}
 
-.img_lisalisa {
-  width: 30%
-}
 
 .borda_form{
   background-color:#5c8ba8 ;
@@ -229,19 +303,18 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
   font-family:octin sports rg ;
 }
 
-
 .col-25{
-width: 25%;
-float: left;
-margin-top: 6px;
-
-}
-
-.col-75{
-width: 75%;
-float: left;
-margin-top: 6px;
-}
+  width: 25%;
+  float: left;
+  margin-top: 6px;
+  
+  }
+  
+  .col-75{
+  width: 75%;
+  float: left;
+  margin-top: 6px;
+  }
 
 .row:after {
   content: "";
@@ -270,33 +343,65 @@ input[type=submit]:hover {
 }
 
 
-@media screen and (max-width:450px) {
+/*Faz uma alteração quando a tela fica menor que 600px */
+@media screen and (max-width:600px) {
 
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
    
+  }  
+
+  .banner{
+    margin-top: 40%;
   }
 
- 
+  .logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+  }
 
-  
+  .descer{
+    margin-top: 50%;
+  }
 }
+/*Faz uma alteração quando a tela fica maior que 601px */
+@media screen and (min-width:601px) {
 
-.img_jojos{
-  margin-top: 1rem;
-  text-align: center;
-  width: 80%
-  
-}
+  header{
+    flex-direction: row;
+  }
 
-.fixo{
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  position: fixed;  
-}
+  .iten_menu{
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    width: 70%;
 
-.banner {
-  margin: 10%;
+  }
+
+  .iten_menu ul li {
+        display: inline;
+        margin-left: 1%;
+
+
+  }
+
+  .banner{
+    margin-top: 15%;
+  }
+
+  .logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    width: 10%;
+  }
+
+  .descer{
+    margin-top: 15%;
+  }
+
+    
 }
