@@ -107,10 +107,25 @@ section a:hover{
 figure{
     text-align: center;
 }
+.jojos{
+  margin-top: 25%;
+}
 
 .container{
   width: 80%;
   margin: auto;
+}
+
+.container_hamon{
+  margin-top: 15%;
+}
+
+.container_contato{
+  margin-top: 15%;
+}
+
+.container_com{
+  margin-top: 15%;
 }
 
 h1 {
