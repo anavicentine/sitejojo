@@ -53,25 +53,6 @@ footer{
   line-height: 1.5;
   text-align: center;
 }
-
-nav ul li a{
-  color: #191970;
-}
-
-.iten_menu{
-  font-size: 0.1px;
-}
-
-.iten_menu a:link, a:visited {
-  background-color: #191970;
-  color: white;
-  padding: 9px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  
- 
-}
   
   /* selected link */
 .iten_menu a:active {
@@ -200,7 +181,7 @@ nav ul li a{
 }
 
 .iten_menu a:link, a:visited {
-  background-color: #191970;
+  ;
   color: white;
   padding: 9px 10px;
   text-align: center;
@@ -357,6 +338,11 @@ input[type=submit]:hover {
   margin-top: 3%;
 }
 
+.img_jojos {
+  margin-top: 2%;
+  width: 50%;
+}
+
 
 /*Faz uma alteração quando a tela fica menor que 600px */
 @media screen and (max-width:600px) {
@@ -378,7 +364,7 @@ input[type=submit]:hover {
   }
 
   .descer{
-    margin-top: 50%;
+    margin-top: 100%;
   }
 }
 /*Faz uma alteração quando a tela fica maior que 601px */
@@ -404,7 +390,7 @@ input[type=submit]:hover {
   }
 
   .banner{
-    margin-top: 15%;
+    margin-top: 10%;
   }
 
   .logo{
