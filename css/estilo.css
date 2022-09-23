@@ -97,16 +97,20 @@ figure{
   margin: auto;
 }
 
-.container_hamon{
-  margin-top: 15%;
+.container_hamon {
+  width: 80%;
+  margin: auto;
 }
 
+
 .container_contato{
-  margin-top: 15%;
+  margin-top: 10%;
+  
 }
 
 .container_com{
-  margin-top: 15%;
+  margin-top: 10%;
+
 }
 
 h1 {
@@ -262,10 +266,9 @@ footer {
 }
 
 table {
-  font-family: octin sports rg ;
   border-collapse: collapse;
   width: 100%;
-  psolid {border-style: solid;}
+  font-family:octin sports rg ;
 }
 
 td, th {
